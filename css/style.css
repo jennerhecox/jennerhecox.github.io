@@ -1,0 +1,62 @@
+
+.font {
+  color: #8e6345;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: myFirstFont;
+}
+.scoobyfont {
+  font-weight: bold;
+  text-align: center;
+  font-family: myFirstFont;
+}
+.header {
+  color: black;
+  font-size: 2.9em;
+  text-align: center;
+  font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(scoobydoo.ttf);
+}
+.green123 {
+  background-color:#79af30;
+}
+.purple123  {
+  background-color:#4b0055;
+}
+.margin {
+  margin-bottom: 400px;
+}
+.tilt:hover {
+  -webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+.tilt2:hover {
+  -webkit-transform: rotate(15deg);
+     -moz-transform: rotate(15deg);
+       -o-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+.trivia {
+  font-family: myFirstFont;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+}
+.buttonchange:active {
+  background-color: red;
+}
+.b-color {
+  background-color: #128A84;
+}
+.b-colortrue:active {
+  background-color: green;
+}

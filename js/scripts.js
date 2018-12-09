@@ -42,3 +42,21 @@ var Zoinks = new Audio('Audio/zoinks.mp3');
     var Answer = Math.floor(Math.random() * (trivia.length));
     document.getElementById('results').innerHTML = trivia[Answer];
   }
+  
+ function QuoteMath(x) {
+     if (x == 1) {
+         alert("You are correct! Velma did say that.");
+     }
+     else if (x == 2) {
+         alert("You are correct! Shaggy did say that.");
+     }
+     else if (x == 3) {
+         alert("You are correct! Scooby did say that.");
+     }
+     else if (x == 4) {
+         alert("You are correct! Fred did say that.");
+     }
+     else if (x == 5) {
+         alert("You are correct! Daphne did say that.");
+     }
+ }
